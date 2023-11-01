@@ -1,2 +1,6 @@
 job_llm/config.py
 __pycache__
+.env
+output
+*.DS_Store
+.venv
