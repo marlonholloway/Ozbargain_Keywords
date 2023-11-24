@@ -1,6 +1,8 @@
+job_llm/config.py
 src/config.py
 __pycache__
 .env
 output
 *.DS_Store
 .venv
+zmisc
