@@ -17,8 +17,10 @@ from __future__ import annotations
 
 import pandas as pd
 import streamlit as st
+from pathlib import Path
 
-DATA_PATH = "data/ozbargain_keywords.csv"
+# Resolve data path relative to repo root (assumes data/ozbargain_keywords.csv exists in repo)
+DATA_PATH = (Path(__file__).resolve().parent.parent / "data" / "ozbargain_keywords.csv").as_posix()
 
 st.set_page_config(page_title="OzBargain Keywords", page_icon="🛒", layout="wide")
 st.title("OzBargain Keywords")
