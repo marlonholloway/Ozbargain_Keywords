@@ -1,0 +1,6 @@
+cd /Users/user1/PycharmProjects/job-llm
+source .venv/bin/activate
+python resources/reddit_ingest.py \
+  --feed https://www.ozbargain.com.au/deals/feed \
+  --limit 100 \
+  --out data/ozbargain_raw.jsonl

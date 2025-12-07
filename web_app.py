@@ -1,12 +1,3 @@
-'''
------------------------------------------------------------------------
-File: app.py
-Creation Time: Jan 30th 2024, 11:00 am
-Author: Saurabh Zinjad
-Developer Email: saurabhzinjad@gmail.com
-Copyright (c) 2023-2024 Saurabh Zinjad. All rights reserved | https://github.com/Ztrimus
------------------------------------------------------------------------
-'''
 import os
 import json
 import base64

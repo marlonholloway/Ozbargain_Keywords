@@ -1,0 +1,81 @@
+trend_id,brand_or_product,category,first_mainstream_year,notes
+1,Instant Pot,Kitchen Appliances,2015,Multicooker category creator
+2,Beyond Meat,Grocery,2018,Plant-based meat pioneer
+3,Impossible Foods,Grocery,2018,Foodservice-driven alt meat
+4,Oatly,Grocery,2017,Alt-milk brand-led adoption
+5,HelloFresh,Grocery,2015,Meal-kit mainstreaming
+6,Afterpay,Payments,2017,BNPL category definer
+7,Klarna,Payments,2017,BNPL global expansion
+8,Peloton,Fitness,2016,Connected fitness platform
+9,Mirror,Fitness,2018,Smart home gym mirror
+10,Theragun,Fitness,2019,Massage gun breakout brand
+11,Hyperice,Fitness,2019,Recovery tech mainstreaming
+12,Apple AirPods,Electronics,2017,Wireless earbuds inflection
+13,Sonos,Electronics,2016,Multi-room smart audio
+14,Amazon Echo,Electronics,2016,Smart speaker adoption
+15,Google Home,Electronics,2016,Voice assistant competition
+16,iRobot Roomba,Home Appliances,2016,Robot vacuum category
+17,Dyson,Home Appliances,2016,Premium cordless appliances
+18,Philips Hue,Smart Home,2017,Smart lighting ecosystem
+19,Stanley,Drinkware,2022,Lifestyle hydration flex product
+20,YETI,Drinkware,2016,Premium outdoor drinkware
+21,Hydro Flask,Drinkware,2016,Reusable bottle mainstreaming
+22,Allbirds,Apparel,2018,Sustainable footwear DTC brand
+23,Patagonia,Apparel,2016,Sustainability-led brand loyalty
+24,Nike Air Force 1,Footwear,2016,Enduring sneaker resurgence
+25,Adidas Ultraboost,Footwear,2016,Performance sneaker hype
+26,LEGO,Kids & Collectibles,2016,Adult fan & crossover appeal
+27,Funko Pop,Collectibles,2017,Blind-box style collectibles
+28,Fitbit,Wearables,2015,Mass fitness tracking
+29,Apple Watch,Wearables,2016,Smartwatch mainstreaming
+30,Tile,Consumer Tech,2017,Item tracking pioneer
+31,Ring,Home Security,2018,DIY video doorbells
+32,Nest,Smart Home,2016,Smart thermostat mass adoption
+33,Kindle,E-readers,2015,Digital reading norm
+34,Dollar Shave Club,Grooming,2015,Subscription grooming shock
+35,Harry’s,Grooming,2016,DTC men’s grooming
+36,The Ordinary,Beauty,2018,Clinical skincare democratisation
+37,CeraVe,Beauty,2019,Derm-backed drugstore skincare
+38,La Roche-Posay,Beauty,2018,Dermatologist skincare crossover
+39,Dyson Airwrap,Beauty Tech,2018,Premium hair styling viral loops
+40,Foreo,Beauty Tech,2017,Facial device mainstreaming
+41,Ritual,Wellness,2017,Subscription vitamins brand trust
+42,Care/of,Wellness,2017,Personalised supplements
+43,Oura Ring,Wearables,2019,Sleep tracking ring emergence
+44,Whoop,Wearables,2019,Performance health subscription
+45,Calm,Wellness Apps,2017,Meditation app mainstreaming
+46,Headspace,Wellness Apps,2016,Mindfulness at scale
+47,Airbnb,Travel & Leisure,2015,Experience-based lodging
+48,Uber Eats,Food Delivery,2016,Platform-driven takeaway shift
+49,DoorDash,Food Delivery,2018,Suburban delivery expansion
+50,Blue Apron,Grocery,2015,Meal-kit early mover
+51,SodaStream,Kitchen,2016,Home carbonation resurgence
+52,Weber,Outdoor Cooking,2016,Grilling lifestyle brand
+53,Blackstone Griddle,Outdoor Cooking,2018,Flat-top griddle virality
+54,Ninja Kitchen,Kitchen Appliances,2018,Air fryer branding
+55,MyFitnessPal,Fitness Apps,2016,Calorie tracking utility
+56,Strava,Fitness Apps,2017,Social fitness network
+57,Cricut,Crafting,2018,Home craft machine breakout
+58,AncestryDNA,Health & Wellness,2017,Consumer DNA kits
+59,23andMe,Health & Wellness,2017,Genetic testing mainstreaming
+60,GoPro,Consumer Tech,2016,Action camera lifecycle peak
+61,PlayStation 5,Consumer Electronics,2020,Scarcity-driven console hype
+62,Nintendo Switch,Consumer Electronics,2017,Hybrid console success
+63,Tesla Model 3,Automotive,2018,EV mass-market moment
+64,Zoom,Productivity Tech,2020,Remote work platform shock
+65,Shopify,Retail Platforms,2017,DTC commerce backbone
+66,SHEIN,Apparel,2020,Ultra-fast fashion algorithm
+67,Glossier,Beauty,2017,Community-driven beauty brand
+68,Warby Parker,Apparel,2016,DTC eyewear challenger
+69,Casper,Home,2015,DTC mattress wave
+70,Purple Mattress,Home,2017,Material science mattress branding
+71,Roborock,Home Appliances,2019,Competitor robot vac rise
+72,Xiaomi,Consumer Electronics,2018,Value electronics ecosystem
+73,Bose QuietComfort,Electronics,2016,Noise cancelling leadership
+74,Samsung Galaxy Buds,Electronics,2019,Ecosystem earbuds growth
+75,Hydralyte,Grocery,2018,Functional hydration brand
+76,Prime Drink,Beverages,2023,Creator-led beverage virality
+77,Red Bull Energy Drink,Beverages,2015,Lifestyle energy brand
+78,Lululemon,Apparel,2016,Premium athleisure scaling
+79,HOKA Running Shoes,Footwear,2020,Maximalist running fad-to-mainstream
+80,On Running,Footwear,2020,Premium performance running

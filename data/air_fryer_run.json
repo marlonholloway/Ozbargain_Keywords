@@ -1,0 +1,70 @@
+{
+  "keyword": "air fryer",
+  "timeframe": {
+    "start": "2014-01-01",
+    "end": "2025-12-07"
+  },
+  "geo": "AU",
+  "metrics": {
+    "mean_interest": 41.65972222222222,
+    "peak_interest": 100.0,
+    "velocity": 0.5944055944055944,
+    "acceleration": -0.04929577464788732,
+    "stability": 1.1873150120175813,
+    "peak_steepness": 37.0,
+    "post_peak_stability": 10.69395946262381,
+    "peak_index": 120
+  },
+  "quant_scores": {
+    "M": 0.29,
+    "C": 0.065,
+    "A": 0.736,
+    "E": 0.749
+  },
+  "gpt_scores": {
+    "M": {
+      "score": 0.7,
+      "analysis": "The product taps into a growing consumer desire for meaningful engagement and self-improvement, aligning with lifestyle shifts toward mindfulness and authenticity. Its appeal is rooted in addressing intrinsic human motives such as curiosity and personal growth."
+    },
+    "C": {
+      "score": 0.6,
+      "analysis": "Social contagion played a moderate role, driven by community sharing and peer influence within Australian social networks. The trend benefited from word-of-mouth and social validation, though it did not rely solely on viral social dynamics."
+    },
+    "A": {
+      "score": 0.5,
+      "analysis": "Algorithmic amplification contributed to visibility, especially through targeted content and recommendation systems on digital platforms, but the trend\u2019s growth was not predominantly driven by algorithmic pushes."
+    },
+    "E": {
+      "score": 0.8,
+      "analysis": "Execution was strong, with adaptable marketing strategies and product iterations that resonated well with evolving consumer identities. The stable plateau indicates effective elasticity in maintaining relevance over time."
+    }
+  },
+  "combined_scores": {
+    "M": {
+      "score": 0.413,
+      "quant": 0.29,
+      "gpt": 0.7,
+      "analysis": "The product taps into a growing consumer desire for meaningful engagement and self-improvement, aligning with lifestyle shifts toward mindfulness and authenticity. Its appeal is rooted in addressing intrinsic human motives such as curiosity and personal growth."
+    },
+    "C": {
+      "score": 0.225,
+      "quant": 0.065,
+      "gpt": 0.6,
+      "analysis": "Social contagion played a moderate role, driven by community sharing and peer influence within Australian social networks. The trend benefited from word-of-mouth and social validation, though it did not rely solely on viral social dynamics."
+    },
+    "A": {
+      "score": 0.594,
+      "quant": 0.736,
+      "gpt": 0.5,
+      "analysis": "Algorithmic amplification contributed to visibility, especially through targeted content and recommendation systems on digital platforms, but the trend\u2019s growth was not predominantly driven by algorithmic pushes."
+    },
+    "E": {
+      "score": 0.78,
+      "quant": 0.749,
+      "gpt": 0.8,
+      "analysis": "Execution was strong, with adaptable marketing strategies and product iterations that resonated well with evolving consumer identities. The stable plateau indicates effective elasticity in maintaining relevance over time."
+    }
+  },
+  "viral_score": 0.0431,
+  "prompt": "You are a cultural analyst specialising in consumer behaviour and retail trends.\n\nI will give you a product trend and a summary of its Google Trends signal.\n\nYour task:\n- Analyse WHY this trend grew culturally.\n- Focus on human motives, lifestyle shifts, identity signaling, and media influence.\n- Do NOT predict future performance.\n- Do NOT restate the numbers.\n- Classify each of the following on a 0\u20131 scale with a short justification:\n\nM \u2013 Product Magnetism\nC \u2013 Social Contagion Power\nA \u2013 Algorithmic Amplification\nE \u2013 Execution & Elasticity\n\nTrend: Interest\n\nObserved pattern:\n- First meaningful growth: 2016\n- Peak interest: 2024\n- Growth shape: sharp climb then stable plateau\n- Volatility: medium\n- Geography: AU focus\n\nReturn strictly in JSON:\n{\n  \"M\": { \"score\": 0.x, \"analysis\": \"...\" },\n  \"C\": { \"score\": 0.x, \"analysis\": \"...\" },\n  \"A\": { \"score\": 0.x, \"analysis\": \"...\" },\n  \"E\": { \"score\": 0.x, \"analysis\": \"...\" }\n}"
+}

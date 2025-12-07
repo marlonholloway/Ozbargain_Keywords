@@ -1,0 +1,1066 @@
+[
+  {
+    "keyword": "Instant Pot",
+    "timeframe": {
+      "start": "2014-01-01",
+      "end": "2025-12-07"
+    },
+    "geo": "AU",
+    "metrics": {
+      "mean_interest": 37.59027777777778,
+      "peak_interest": 100.0,
+      "velocity": 0.5034965034965035,
+      "acceleration": -0.028169014084507043,
+      "stability": 1.2253905716714915,
+      "peak_steepness": 21.0,
+      "post_peak_stability": 6.586284845275129,
+      "peak_index": 102
+    },
+    "quant_scores": {
+      "M": 0.266,
+      "C": 0.055,
+      "A": 0.73,
+      "E": 0.497
+    },
+    "gpt_scores": {
+      "M": {
+        "score": 0.7,
+        "analysis": "The product resonates with a growing consumer desire for self-expression and lifestyle enhancement, tapping into identity signaling through uniqueness and quality, which drives intrinsic appeal."
+      },
+      "C": {
+        "score": 0.6,
+        "analysis": "Social contagion played a moderate role, fueled by peer influence and community validation, especially within Australian social circles, but was not the sole driver of growth."
+      },
+      "A": {
+        "score": 0.5,
+        "analysis": "Algorithmic amplification contributed to visibility via targeted content and recommendations, particularly on social media platforms, but its effect was balanced by organic interest."
+      },
+      "E": {
+        "score": 0.8,
+        "analysis": "Strong execution and elasticity allowed the trend to maintain a stable plateau after rapid growth, indicating effective adaptation to consumer needs and sustained relevance in the market."
+      }
+    },
+    "combined_scores": {
+      "M": {
+        "score": 0.396,
+        "quant": 0.266,
+        "gpt": 0.7,
+        "analysis": "The product resonates with a growing consumer desire for self-expression and lifestyle enhancement, tapping into identity signaling through uniqueness and quality, which drives intrinsic appeal."
+      },
+      "C": {
+        "score": 0.218,
+        "quant": 0.055,
+        "gpt": 0.6,
+        "analysis": "Social contagion played a moderate role, fueled by peer influence and community validation, especially within Australian social circles, but was not the sole driver of growth."
+      },
+      "A": {
+        "score": 0.592,
+        "quant": 0.73,
+        "gpt": 0.5,
+        "analysis": "Algorithmic amplification contributed to visibility via targeted content and recommendations, particularly on social media platforms, but its effect was balanced by organic interest."
+      },
+      "E": {
+        "score": 0.679,
+        "quant": 0.497,
+        "gpt": 0.8,
+        "analysis": "Strong execution and elasticity allowed the trend to maintain a stable plateau after rapid growth, indicating effective adaptation to consumer needs and sustained relevance in the market."
+      }
+    },
+    "viral_score": 0.0347,
+    "prompt": "You are a cultural analyst specialising in consumer behaviour and retail trends.\n\nI will give you a product trend and a summary of its Google Trends signal.\n\nYour task:\n- Analyse WHY this trend grew culturally.\n- Focus on human motives, lifestyle shifts, identity signaling, and media influence.\n- Do NOT predict future performance.\n- Do NOT restate the numbers.\n- Classify each of the following on a 0\u20131 scale with a short justification:\n\nM \u2013 Product Magnetism\nC \u2013 Social Contagion Power\nA \u2013 Algorithmic Amplification\nE \u2013 Execution & Elasticity\n\nTrend: Interest\n\nObserved pattern:\n- First meaningful growth: 2017\n- Peak interest: 2022\n- Growth shape: sharp climb then stable plateau\n- Volatility: medium\n- Geography: AU focus\n\nReturn strictly in JSON:\n{\n  \"M\": { \"score\": 0.x, \"analysis\": \"...\" },\n  \"C\": { \"score\": 0.x, \"analysis\": \"...\" },\n  \"A\": { \"score\": 0.x, \"analysis\": \"...\" },\n  \"E\": { \"score\": 0.x, \"analysis\": \"...\" }\n}",
+    "meta": {
+      "trend_id": "1",
+      "category": "Kitchen Appliances",
+      "first_mainstream_year": "2015",
+      "notes": "Multicooker category creator"
+    }
+  },
+  {
+    "keyword": "Beyond Meat",
+    "timeframe": {
+      "start": "2014-01-01",
+      "end": "2025-12-07"
+    },
+    "geo": "AU",
+    "metrics": {
+      "mean_interest": 15.104166666666666,
+      "peak_interest": 100.0,
+      "velocity": 0.08391608391608392,
+      "acceleration": -0.028169014084507043,
+      "stability": 0.8815279970743987,
+      "peak_steepness": 54.0,
+      "post_peak_stability": 1.2281847033879998,
+      "peak_index": 64
+    },
+    "quant_scores": {
+      "M": 0.12,
+      "C": 0.009,
+      "A": 0.705,
+      "E": 0.117
+    },
+    "gpt_scores": {
+      "M": {
+        "score": 0.7,
+        "analysis": "The product tapped into a growing consumer desire for self-expression and lifestyle enhancement, aligning with a cultural shift towards valuing authenticity and curated personal identity. Its appeal was strong enough to sustain interest but not universally magnetic."
+      },
+      "C": {
+        "score": 0.6,
+        "analysis": "Social contagion played a moderate role, driven by peer influence and community validation, especially within Australian subcultures. Word-of-mouth and social sharing helped stabilize interest after the initial surge."
+      },
+      "A": {
+        "score": 0.5,
+        "analysis": "Algorithmic amplification contributed to visibility, particularly through targeted content and recommendation systems on social media platforms, but it was not the primary driver of growth."
+      },
+      "E": {
+        "score": 0.8,
+        "analysis": "Execution was strong, with adaptable marketing strategies and product iterations that maintained consumer engagement and allowed the trend to plateau rather than decline sharply."
+      }
+    },
+    "combined_scores": {
+      "M": {
+        "score": 0.294,
+        "quant": 0.12,
+        "gpt": 0.7,
+        "analysis": "The product tapped into a growing consumer desire for self-expression and lifestyle enhancement, aligning with a cultural shift towards valuing authenticity and curated personal identity. Its appeal was strong enough to sustain interest but not universally magnetic."
+      },
+      "C": {
+        "score": 0.186,
+        "quant": 0.009,
+        "gpt": 0.6,
+        "analysis": "Social contagion played a moderate role, driven by peer influence and community validation, especially within Australian subcultures. Word-of-mouth and social sharing helped stabilize interest after the initial surge."
+      },
+      "A": {
+        "score": 0.582,
+        "quant": 0.705,
+        "gpt": 0.5,
+        "analysis": "Algorithmic amplification contributed to visibility, particularly through targeted content and recommendation systems on social media platforms, but it was not the primary driver of growth."
+      },
+      "E": {
+        "score": 0.527,
+        "quant": 0.117,
+        "gpt": 0.8,
+        "analysis": "Execution was strong, with adaptable marketing strategies and product iterations that maintained consumer engagement and allowed the trend to plateau rather than decline sharply."
+      }
+    },
+    "viral_score": 0.0168,
+    "prompt": "You are a cultural analyst specialising in consumer behaviour and retail trends.\n\nI will give you a product trend and a summary of its Google Trends signal.\n\nYour task:\n- Analyse WHY this trend grew culturally.\n- Focus on human motives, lifestyle shifts, identity signaling, and media influence.\n- Do NOT predict future performance.\n- Do NOT restate the numbers.\n- Classify each of the following on a 0\u20131 scale with a short justification:\n\nM \u2013 Product Magnetism\nC \u2013 Social Contagion Power\nA \u2013 Algorithmic Amplification\nE \u2013 Execution & Elasticity\n\nTrend: Interest\n\nObserved pattern:\n- First meaningful growth: 2015\n- Peak interest: 2019\n- Growth shape: sharp climb then stable plateau\n- Volatility: medium\n- Geography: AU focus\n\nReturn strictly in JSON:\n{\n  \"M\": { \"score\": 0.x, \"analysis\": \"...\" },\n  \"C\": { \"score\": 0.x, \"analysis\": \"...\" },\n  \"A\": { \"score\": 0.x, \"analysis\": \"...\" },\n  \"E\": { \"score\": 0.x, \"analysis\": \"...\" }\n}",
+    "meta": {
+      "trend_id": "2",
+      "category": "Grocery",
+      "first_mainstream_year": "2018",
+      "notes": "Plant-based meat pioneer"
+    }
+  },
+  {
+    "keyword": "Impossible Foods",
+    "timeframe": {
+      "start": "2014-01-01",
+      "end": "2025-12-07"
+    },
+    "geo": "AU",
+    "metrics": {
+      "mean_interest": 16.78472222222222,
+      "peak_interest": 100.0,
+      "velocity": 0.04895104895104895,
+      "acceleration": 0.035211267605633804,
+      "stability": 0.7706163032404745,
+      "peak_steepness": 100.0,
+      "post_peak_stability": 1.08452107595753,
+      "peak_index": 67
+    },
+    "quant_scores": {
+      "M": 0.126,
+      "C": 0.013,
+      "A": 0.703,
+      "E": 0.114
+    },
+    "gpt_scores": {
+      "M": {
+        "score": 0.7,
+        "analysis": "The product tapped into a growing consumer desire for novelty and self-expression, aligning with lifestyle shifts toward experiential and identity-driven consumption. Its appeal was strong enough to generate initial curiosity and sustained interest, though it may have lacked universal or deep-rooted emotional resonance to push magnetism higher."
+      },
+      "C": {
+        "score": 0.8,
+        "analysis": "Social contagion played a significant role, especially within Australian communities where peer influence and cultural affinity accelerated adoption. The trend benefited from word-of-mouth and social signaling, as consumers used it to signal modernity and belonging within evolving social groups."
+      },
+      "A": {
+        "score": 0.6,
+        "analysis": "Algorithmic amplification contributed moderately, with digital platforms and targeted content helping to surface the trend to relevant audiences. However, the high volatility suggests that while algorithms boosted visibility, they did not fully stabilize or mainstream the trend."
+      },
+      "E": {
+        "score": 0.7,
+        "analysis": "Execution and elasticity were effective enough to maintain a stable plateau after the initial surge, indicating adaptability in marketing and product iterations. The ability to sustain interest post-peak reflects competent management of product lifecycle and consumer engagement."
+      }
+    },
+    "combined_scores": {
+      "M": {
+        "score": 0.298,
+        "quant": 0.126,
+        "gpt": 0.7,
+        "analysis": "The product tapped into a growing consumer desire for novelty and self-expression, aligning with lifestyle shifts toward experiential and identity-driven consumption. Its appeal was strong enough to generate initial curiosity and sustained interest, though it may have lacked universal or deep-rooted emotional resonance to push magnetism higher."
+      },
+      "C": {
+        "score": 0.249,
+        "quant": 0.013,
+        "gpt": 0.8,
+        "analysis": "Social contagion played a significant role, especially within Australian communities where peer influence and cultural affinity accelerated adoption. The trend benefited from word-of-mouth and social signaling, as consumers used it to signal modernity and belonging within evolving social groups."
+      },
+      "A": {
+        "score": 0.641,
+        "quant": 0.703,
+        "gpt": 0.6,
+        "analysis": "Algorithmic amplification contributed moderately, with digital platforms and targeted content helping to surface the trend to relevant audiences. However, the high volatility suggests that while algorithms boosted visibility, they did not fully stabilize or mainstream the trend."
+      },
+      "E": {
+        "score": 0.466,
+        "quant": 0.114,
+        "gpt": 0.7,
+        "analysis": "Execution and elasticity were effective enough to maintain a stable plateau after the initial surge, indicating adaptability in marketing and product iterations. The ability to sustain interest post-peak reflects competent management of product lifecycle and consumer engagement."
+      }
+    },
+    "viral_score": 0.0222,
+    "prompt": "You are a cultural analyst specialising in consumer behaviour and retail trends.\n\nI will give you a product trend and a summary of its Google Trends signal.\n\nYour task:\n- Analyse WHY this trend grew culturally.\n- Focus on human motives, lifestyle shifts, identity signaling, and media influence.\n- Do NOT predict future performance.\n- Do NOT restate the numbers.\n- Classify each of the following on a 0\u20131 scale with a short justification:\n\nM \u2013 Product Magnetism\nC \u2013 Social Contagion Power\nA \u2013 Algorithmic Amplification\nE \u2013 Execution & Elasticity\n\nTrend: Interest\n\nObserved pattern:\n- First meaningful growth: 2016\n- Peak interest: 2019\n- Growth shape: sharp climb then stable plateau\n- Volatility: high\n- Geography: AU focus\n\nReturn strictly in JSON:\n{\n  \"M\": { \"score\": 0.x, \"analysis\": \"...\" },\n  \"C\": { \"score\": 0.x, \"analysis\": \"...\" },\n  \"A\": { \"score\": 0.x, \"analysis\": \"...\" },\n  \"E\": { \"score\": 0.x, \"analysis\": \"...\" }\n}",
+    "meta": {
+      "trend_id": "3",
+      "category": "Grocery",
+      "first_mainstream_year": "2018",
+      "notes": "Foodservice-driven alt meat"
+    }
+  },
+  {
+    "keyword": "Oatly",
+    "timeframe": {
+      "start": "2014-01-01",
+      "end": "2025-12-07"
+    },
+    "geo": "AU",
+    "metrics": {
+      "mean_interest": 33.229166666666664,
+      "peak_interest": 100.0,
+      "velocity": 0.2727272727272727,
+      "acceleration": -0.09154929577464789,
+      "stability": 1.3330619556930958,
+      "peak_steepness": 37.0,
+      "post_peak_stability": 3.906269116350491,
+      "peak_index": 89
+    },
+    "quant_scores": {
+      "M": 0.244,
+      "C": 0.03,
+      "A": 0.716,
+      "E": 0.328
+    },
+    "gpt_scores": {
+      "M": {
+        "score": 0.7,
+        "analysis": "The product tapped into a growing cultural desire for self-improvement and mindfulness, aligning with lifestyle shifts towards wellness and intentional living. Its appeal lies in fulfilling intrinsic human motives such as curiosity and personal growth, making it magnetically relevant to consumers seeking meaningful engagement."
+      },
+      "C": {
+        "score": 0.6,
+        "analysis": "Social contagion played a moderate role, as peer influence and community sharing helped normalize and spread interest. However, the trend's growth was more driven by individual exploration than mass social signaling, limiting its viral social momentum."
+      },
+      "A": {
+        "score": 0.8,
+        "analysis": "Algorithmic amplification significantly boosted visibility, especially through targeted content on digital platforms popular in Australia. Recommendation engines and curated feeds helped sustain attention and introduced the trend to wider audiences, reinforcing its stable plateau."
+      },
+      "E": {
+        "score": 0.7,
+        "analysis": "Execution was effective in maintaining consumer engagement through adaptable messaging and product iterations that resonated with evolving lifestyle values. Elasticity was evident in the trend's ability to integrate with various subcultures and media formats, supporting sustained interest."
+      }
+    },
+    "combined_scores": {
+      "M": {
+        "score": 0.381,
+        "quant": 0.244,
+        "gpt": 0.7,
+        "analysis": "The product tapped into a growing cultural desire for self-improvement and mindfulness, aligning with lifestyle shifts towards wellness and intentional living. Its appeal lies in fulfilling intrinsic human motives such as curiosity and personal growth, making it magnetically relevant to consumers seeking meaningful engagement."
+      },
+      "C": {
+        "score": 0.201,
+        "quant": 0.03,
+        "gpt": 0.6,
+        "analysis": "Social contagion played a moderate role, as peer influence and community sharing helped normalize and spread interest. However, the trend's growth was more driven by individual exploration than mass social signaling, limiting its viral social momentum."
+      },
+      "A": {
+        "score": 0.766,
+        "quant": 0.716,
+        "gpt": 0.8,
+        "analysis": "Algorithmic amplification significantly boosted visibility, especially through targeted content on digital platforms popular in Australia. Recommendation engines and curated feeds helped sustain attention and introduced the trend to wider audiences, reinforcing its stable plateau."
+      },
+      "E": {
+        "score": 0.551,
+        "quant": 0.328,
+        "gpt": 0.7,
+        "analysis": "Execution was effective in maintaining consumer engagement through adaptable messaging and product iterations that resonated with evolving lifestyle values. Elasticity was evident in the trend's ability to integrate with various subcultures and media formats, supporting sustained interest."
+      }
+    },
+    "viral_score": 0.0323,
+    "prompt": "You are a cultural analyst specialising in consumer behaviour and retail trends.\n\nI will give you a product trend and a summary of its Google Trends signal.\n\nYour task:\n- Analyse WHY this trend grew culturally.\n- Focus on human motives, lifestyle shifts, identity signaling, and media influence.\n- Do NOT predict future performance.\n- Do NOT restate the numbers.\n- Classify each of the following on a 0\u20131 scale with a short justification:\n\nM \u2013 Product Magnetism\nC \u2013 Social Contagion Power\nA \u2013 Algorithmic Amplification\nE \u2013 Execution & Elasticity\n\nTrend: Interest\n\nObserved pattern:\n- First meaningful growth: 2014\n- Peak interest: 2021\n- Growth shape: sharp climb then stable plateau\n- Volatility: medium\n- Geography: AU focus\n\nReturn strictly in JSON:\n{\n  \"M\": { \"score\": 0.x, \"analysis\": \"...\" },\n  \"C\": { \"score\": 0.x, \"analysis\": \"...\" },\n  \"A\": { \"score\": 0.x, \"analysis\": \"...\" },\n  \"E\": { \"score\": 0.x, \"analysis\": \"...\" }\n}",
+    "meta": {
+      "trend_id": "4",
+      "category": "Grocery",
+      "first_mainstream_year": "2017",
+      "notes": "Alt-milk brand-led adoption"
+    }
+  },
+  {
+    "keyword": "HelloFresh",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "5",
+      "category": "Grocery",
+      "first_mainstream_year": "2015",
+      "notes": "Meal-kit mainstreaming"
+    }
+  },
+  {
+    "keyword": "Afterpay",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "6",
+      "category": "Payments",
+      "first_mainstream_year": "2017",
+      "notes": "BNPL category definer"
+    }
+  },
+  {
+    "keyword": "Klarna",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "7",
+      "category": "Payments",
+      "first_mainstream_year": "2017",
+      "notes": "BNPL global expansion"
+    }
+  },
+  {
+    "keyword": "Peloton",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "8",
+      "category": "Fitness",
+      "first_mainstream_year": "2016",
+      "notes": "Connected fitness platform"
+    }
+  },
+  {
+    "keyword": "Mirror",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "9",
+      "category": "Fitness",
+      "first_mainstream_year": "2018",
+      "notes": "Smart home gym mirror"
+    }
+  },
+  {
+    "keyword": "Theragun",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "10",
+      "category": "Fitness",
+      "first_mainstream_year": "2019",
+      "notes": "Massage gun breakout brand"
+    }
+  },
+  {
+    "keyword": "Hyperice",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "11",
+      "category": "Fitness",
+      "first_mainstream_year": "2019",
+      "notes": "Recovery tech mainstreaming"
+    }
+  },
+  {
+    "keyword": "Apple AirPods",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "12",
+      "category": "Electronics",
+      "first_mainstream_year": "2017",
+      "notes": "Wireless earbuds inflection"
+    }
+  },
+  {
+    "keyword": "Sonos",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "13",
+      "category": "Electronics",
+      "first_mainstream_year": "2016",
+      "notes": "Multi-room smart audio"
+    }
+  },
+  {
+    "keyword": "Amazon Echo",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "14",
+      "category": "Electronics",
+      "first_mainstream_year": "2016",
+      "notes": "Smart speaker adoption"
+    }
+  },
+  {
+    "keyword": "Google Home",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "15",
+      "category": "Electronics",
+      "first_mainstream_year": "2016",
+      "notes": "Voice assistant competition"
+    }
+  },
+  {
+    "keyword": "iRobot Roomba",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "16",
+      "category": "Home Appliances",
+      "first_mainstream_year": "2016",
+      "notes": "Robot vacuum category"
+    }
+  },
+  {
+    "keyword": "Dyson",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "17",
+      "category": "Home Appliances",
+      "first_mainstream_year": "2016",
+      "notes": "Premium cordless appliances"
+    }
+  },
+  {
+    "keyword": "Philips Hue",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "18",
+      "category": "Smart Home",
+      "first_mainstream_year": "2017",
+      "notes": "Smart lighting ecosystem"
+    }
+  },
+  {
+    "keyword": "Stanley",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "19",
+      "category": "Drinkware",
+      "first_mainstream_year": "2022",
+      "notes": "Lifestyle hydration flex product"
+    }
+  },
+  {
+    "keyword": "YETI",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "20",
+      "category": "Drinkware",
+      "first_mainstream_year": "2016",
+      "notes": "Premium outdoor drinkware"
+    }
+  },
+  {
+    "keyword": "Hydro Flask",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "21",
+      "category": "Drinkware",
+      "first_mainstream_year": "2016",
+      "notes": "Reusable bottle mainstreaming"
+    }
+  },
+  {
+    "keyword": "Allbirds",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "22",
+      "category": "Apparel",
+      "first_mainstream_year": "2018",
+      "notes": "Sustainable footwear DTC brand"
+    }
+  },
+  {
+    "keyword": "Patagonia",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "23",
+      "category": "Apparel",
+      "first_mainstream_year": "2016",
+      "notes": "Sustainability-led brand loyalty"
+    }
+  },
+  {
+    "keyword": "Nike Air Force 1",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "24",
+      "category": "Footwear",
+      "first_mainstream_year": "2016",
+      "notes": "Enduring sneaker resurgence"
+    }
+  },
+  {
+    "keyword": "Adidas Ultraboost",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "25",
+      "category": "Footwear",
+      "first_mainstream_year": "2016",
+      "notes": "Performance sneaker hype"
+    }
+  },
+  {
+    "keyword": "LEGO",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "26",
+      "category": "Kids & Collectibles",
+      "first_mainstream_year": "2016",
+      "notes": "Adult fan & crossover appeal"
+    }
+  },
+  {
+    "keyword": "Funko Pop",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "27",
+      "category": "Collectibles",
+      "first_mainstream_year": "2017",
+      "notes": "Blind-box style collectibles"
+    }
+  },
+  {
+    "keyword": "Fitbit",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "28",
+      "category": "Wearables",
+      "first_mainstream_year": "2015",
+      "notes": "Mass fitness tracking"
+    }
+  },
+  {
+    "keyword": "Apple Watch",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "29",
+      "category": "Wearables",
+      "first_mainstream_year": "2016",
+      "notes": "Smartwatch mainstreaming"
+    }
+  },
+  {
+    "keyword": "Tile",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "30",
+      "category": "Consumer Tech",
+      "first_mainstream_year": "2017",
+      "notes": "Item tracking pioneer"
+    }
+  },
+  {
+    "keyword": "Ring",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "31",
+      "category": "Home Security",
+      "first_mainstream_year": "2018",
+      "notes": "DIY video doorbells"
+    }
+  },
+  {
+    "keyword": "Nest",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "32",
+      "category": "Smart Home",
+      "first_mainstream_year": "2016",
+      "notes": "Smart thermostat mass adoption"
+    }
+  },
+  {
+    "keyword": "Kindle",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "33",
+      "category": "E-readers",
+      "first_mainstream_year": "2015",
+      "notes": "Digital reading norm"
+    }
+  },
+  {
+    "keyword": "Dollar Shave Club",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "34",
+      "category": "Grooming",
+      "first_mainstream_year": "2015",
+      "notes": "Subscription grooming shock"
+    }
+  },
+  {
+    "keyword": "Harry\u2019s",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "35",
+      "category": "Grooming",
+      "first_mainstream_year": "2016",
+      "notes": "DTC men\u2019s grooming"
+    }
+  },
+  {
+    "keyword": "The Ordinary",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "36",
+      "category": "Beauty",
+      "first_mainstream_year": "2018",
+      "notes": "Clinical skincare democratisation"
+    }
+  },
+  {
+    "keyword": "CeraVe",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "37",
+      "category": "Beauty",
+      "first_mainstream_year": "2019",
+      "notes": "Derm-backed drugstore skincare"
+    }
+  },
+  {
+    "keyword": "La Roche-Posay",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "38",
+      "category": "Beauty",
+      "first_mainstream_year": "2018",
+      "notes": "Dermatologist skincare crossover"
+    }
+  },
+  {
+    "keyword": "Dyson Airwrap",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "39",
+      "category": "Beauty Tech",
+      "first_mainstream_year": "2018",
+      "notes": "Premium hair styling viral loops"
+    }
+  },
+  {
+    "keyword": "Foreo",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "40",
+      "category": "Beauty Tech",
+      "first_mainstream_year": "2017",
+      "notes": "Facial device mainstreaming"
+    }
+  },
+  {
+    "keyword": "Ritual",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "41",
+      "category": "Wellness",
+      "first_mainstream_year": "2017",
+      "notes": "Subscription vitamins brand trust"
+    }
+  },
+  {
+    "keyword": "Care/of",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "42",
+      "category": "Wellness",
+      "first_mainstream_year": "2017",
+      "notes": "Personalised supplements"
+    }
+  },
+  {
+    "keyword": "Oura Ring",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "43",
+      "category": "Wearables",
+      "first_mainstream_year": "2019",
+      "notes": "Sleep tracking ring emergence"
+    }
+  },
+  {
+    "keyword": "Whoop",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "44",
+      "category": "Wearables",
+      "first_mainstream_year": "2019",
+      "notes": "Performance health subscription"
+    }
+  },
+  {
+    "keyword": "Calm",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "45",
+      "category": "Wellness Apps",
+      "first_mainstream_year": "2017",
+      "notes": "Meditation app mainstreaming"
+    }
+  },
+  {
+    "keyword": "Headspace",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "46",
+      "category": "Wellness Apps",
+      "first_mainstream_year": "2016",
+      "notes": "Mindfulness at scale"
+    }
+  },
+  {
+    "keyword": "Airbnb",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "47",
+      "category": "Travel & Leisure",
+      "first_mainstream_year": "2015",
+      "notes": "Experience-based lodging"
+    }
+  },
+  {
+    "keyword": "Uber Eats",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "48",
+      "category": "Food Delivery",
+      "first_mainstream_year": "2016",
+      "notes": "Platform-driven takeaway shift"
+    }
+  },
+  {
+    "keyword": "DoorDash",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "49",
+      "category": "Food Delivery",
+      "first_mainstream_year": "2018",
+      "notes": "Suburban delivery expansion"
+    }
+  },
+  {
+    "keyword": "Blue Apron",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "50",
+      "category": "Grocery",
+      "first_mainstream_year": "2015",
+      "notes": "Meal-kit early mover"
+    }
+  },
+  {
+    "keyword": "SodaStream",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "51",
+      "category": "Kitchen",
+      "first_mainstream_year": "2016",
+      "notes": "Home carbonation resurgence"
+    }
+  },
+  {
+    "keyword": "Weber",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "52",
+      "category": "Outdoor Cooking",
+      "first_mainstream_year": "2016",
+      "notes": "Grilling lifestyle brand"
+    }
+  },
+  {
+    "keyword": "Blackstone Griddle",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "53",
+      "category": "Outdoor Cooking",
+      "first_mainstream_year": "2018",
+      "notes": "Flat-top griddle virality"
+    }
+  },
+  {
+    "keyword": "Ninja Kitchen",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "54",
+      "category": "Kitchen Appliances",
+      "first_mainstream_year": "2018",
+      "notes": "Air fryer branding"
+    }
+  },
+  {
+    "keyword": "MyFitnessPal",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "55",
+      "category": "Fitness Apps",
+      "first_mainstream_year": "2016",
+      "notes": "Calorie tracking utility"
+    }
+  },
+  {
+    "keyword": "Strava",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "56",
+      "category": "Fitness Apps",
+      "first_mainstream_year": "2017",
+      "notes": "Social fitness network"
+    }
+  },
+  {
+    "keyword": "Cricut",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "57",
+      "category": "Crafting",
+      "first_mainstream_year": "2018",
+      "notes": "Home craft machine breakout"
+    }
+  },
+  {
+    "keyword": "AncestryDNA",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "58",
+      "category": "Health & Wellness",
+      "first_mainstream_year": "2017",
+      "notes": "Consumer DNA kits"
+    }
+  },
+  {
+    "keyword": "23andMe",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "59",
+      "category": "Health & Wellness",
+      "first_mainstream_year": "2017",
+      "notes": "Genetic testing mainstreaming"
+    }
+  },
+  {
+    "keyword": "GoPro",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "60",
+      "category": "Consumer Tech",
+      "first_mainstream_year": "2016",
+      "notes": "Action camera lifecycle peak"
+    }
+  },
+  {
+    "keyword": "PlayStation 5",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "61",
+      "category": "Consumer Electronics",
+      "first_mainstream_year": "2020",
+      "notes": "Scarcity-driven console hype"
+    }
+  },
+  {
+    "keyword": "Nintendo Switch",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "62",
+      "category": "Consumer Electronics",
+      "first_mainstream_year": "2017",
+      "notes": "Hybrid console success"
+    }
+  },
+  {
+    "keyword": "Tesla Model 3",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "63",
+      "category": "Automotive",
+      "first_mainstream_year": "2018",
+      "notes": "EV mass-market moment"
+    }
+  },
+  {
+    "keyword": "Zoom",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "64",
+      "category": "Productivity Tech",
+      "first_mainstream_year": "2020",
+      "notes": "Remote work platform shock"
+    }
+  },
+  {
+    "keyword": "Shopify",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "65",
+      "category": "Retail Platforms",
+      "first_mainstream_year": "2017",
+      "notes": "DTC commerce backbone"
+    }
+  },
+  {
+    "keyword": "SHEIN",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "66",
+      "category": "Apparel",
+      "first_mainstream_year": "2020",
+      "notes": "Ultra-fast fashion algorithm"
+    }
+  },
+  {
+    "keyword": "Glossier",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "67",
+      "category": "Beauty",
+      "first_mainstream_year": "2017",
+      "notes": "Community-driven beauty brand"
+    }
+  },
+  {
+    "keyword": "Warby Parker",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "68",
+      "category": "Apparel",
+      "first_mainstream_year": "2016",
+      "notes": "DTC eyewear challenger"
+    }
+  },
+  {
+    "keyword": "Casper",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "69",
+      "category": "Home",
+      "first_mainstream_year": "2015",
+      "notes": "DTC mattress wave"
+    }
+  },
+  {
+    "keyword": "Purple Mattress",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "70",
+      "category": "Home",
+      "first_mainstream_year": "2017",
+      "notes": "Material science mattress branding"
+    }
+  },
+  {
+    "keyword": "Roborock",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "71",
+      "category": "Home Appliances",
+      "first_mainstream_year": "2019",
+      "notes": "Competitor robot vac rise"
+    }
+  },
+  {
+    "keyword": "Xiaomi",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "72",
+      "category": "Consumer Electronics",
+      "first_mainstream_year": "2018",
+      "notes": "Value electronics ecosystem"
+    }
+  },
+  {
+    "keyword": "Bose QuietComfort",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "73",
+      "category": "Electronics",
+      "first_mainstream_year": "2016",
+      "notes": "Noise cancelling leadership"
+    }
+  },
+  {
+    "keyword": "Samsung Galaxy Buds",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "74",
+      "category": "Electronics",
+      "first_mainstream_year": "2019",
+      "notes": "Ecosystem earbuds growth"
+    }
+  },
+  {
+    "keyword": "Hydralyte",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "75",
+      "category": "Grocery",
+      "first_mainstream_year": "2018",
+      "notes": "Functional hydration brand"
+    }
+  },
+  {
+    "keyword": "Prime Drink",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "76",
+      "category": "Beverages",
+      "first_mainstream_year": "2023",
+      "notes": "Creator-led beverage virality"
+    }
+  },
+  {
+    "keyword": "Red Bull Energy Drink",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "77",
+      "category": "Beverages",
+      "first_mainstream_year": "2015",
+      "notes": "Lifestyle energy brand"
+    }
+  },
+  {
+    "keyword": "Lululemon",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "78",
+      "category": "Apparel",
+      "first_mainstream_year": "2016",
+      "notes": "Premium athleisure scaling"
+    }
+  },
+  {
+    "keyword": "HOKA Running Shoes",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "79",
+      "category": "Footwear",
+      "first_mainstream_year": "2020",
+      "notes": "Maximalist running fad-to-mainstream"
+    }
+  },
+  {
+    "keyword": "On Running",
+    "error": "The request failed: Google returned a response with code 429",
+    "meta": {
+      "trend_id": "80",
+      "category": "Footwear",
+      "first_mainstream_year": "2020",
+      "notes": "Premium performance running"
+    }
+  }
+]

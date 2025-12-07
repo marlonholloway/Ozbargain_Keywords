@@ -11,7 +11,6 @@ Copyright (c) 2023 Saurabh Zinjad. All rights reserved | GitHub: Ztrimus
 import argparse
 from zlm import AutoApplyModel
 
-
 def create_resume_cv(url, master_data, api_key, provider, downloads_dir):
     """
     Creates a resume or CV using the Job-LLM model.
